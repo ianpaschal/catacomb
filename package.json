@@ -1,0 +1,27 @@
+{
+  "name": "catacomb",
+  "version": "1.0.0",
+  "description": "A bare bones database (ha, get it?).",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ianpaschal/catacomb.git"
+  },
+  "keywords": [
+    "database",
+    "json",
+    "simple"
+  ],
+  "author": "Ian Paschal",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ianpaschal/catacomb/issues"
+  },
+  "homepage": "https://github.com/ianpaschal/catacomb#readme",
+  "dependencies": {
+    "fs": "0.0.1-security"
+  }
+}
