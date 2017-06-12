@@ -1,8 +1,8 @@
 {
   "name": "catacomb",
-  "version": "1.0.0",
-  "description": "A bare bones database (ha, get it?).",
-  "main": "index.js",
+  "version": "0.1.1",
+  "description": "A bare bones database. (Haha, get it?)",
+  "main": "/src/Catacomb.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -22,6 +22,7 @@
   },
   "homepage": "https://github.com/ianpaschal/catacomb#readme",
   "dependencies": {
-    "fs": "0.0.1-security"
+    "fs": "0.0.1-security",
+    "uuid": "^3.0.1"
   }
 }
