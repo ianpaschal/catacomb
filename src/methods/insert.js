@@ -4,6 +4,7 @@
 	Authors: @ianpaschal
 	License: MIT
 */
+const UUID = require("uuid");
 module.exports = function( data, callback ) {
 	let index;
 	// If the data includes the field the database uses as index:
