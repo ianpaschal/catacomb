@@ -27,14 +27,15 @@ let DB = function( options ) {
 	}
 };
 DB.prototype = {
-	save:    require("../src/methods/save.js"),
-	load:    require("../src/methods/load.js"),
-	insert:  require("../src/methods/insert.js"),
-	update:  require("../src/methods/update.js"),
-	delete:  require("../src/methods/delete.js"),
-	get:     require("../src/methods/get.js"),
-	getAll:  require("../src/methods/getAll.js"),
-	getSize: require("../src/methods/getSize.js"),
+	save:           require("../src/methods/save.js"),
+	load:           require("../src/methods/load.js"),
+	insert:         require("../src/methods/insert.js"),
+	insertAs:       require("../src/methods/insertAs.js"),
+	update:         require("../src/methods/update.js"),
+	delete:         require("../src/methods/delete.js"),
+	get:            require("../src/methods/get.js"),
+	getAll:         require("../src/methods/getAll.js"),
+	getSize:        require("../src/methods/getSize.js"),
 	startAutosave: function() {
     this._autosaveTimer = setInterval(function() {
 			console.log("Autosaving!");
