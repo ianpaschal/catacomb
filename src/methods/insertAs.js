@@ -1,19 +1,11 @@
 /*
-	Catacomb | Insert
+	Catacomb | Insert As
 	-
 	Authors: @ianpaschal
 	License: MIT
 */
 const UUID = require("uuid");
-module.exports = function( data, callback ) {
-	let index;
-	// If the data includes the field the database uses as index:
-	if ( !data[ this.index ] ) {
-		index = UUID.v4();
-		data[ this.index ] = index;
-	} else {
-		index = data[ this.index ];
-	}
+module.exports = function( index, data, callback ) {
 	if ( this.records[ index ] ) {
 		return console.log("Record " + key + " already exists in database!");
 	}
