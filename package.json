@@ -1,6 +1,6 @@
 {
   "name": "catacomb",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "A bare bones database. (Haha, get it?)",
   "main": "/src/Catacomb.js",
   "scripts": {
