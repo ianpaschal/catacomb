@@ -1,3 +1,7 @@
+<div style="width: 128px; margin: 16px auto;">
+	<img src="https://github.com/ianpaschal/catacomb/raw/master/docs/logo.png" />
+</div>
+
 # Catacomb
 A bare bones database.
 
