@@ -1,4 +1,6 @@
-<img style="margin: 16px auto; display: block;" width="128px" height="128px" src="https://github.com/ianpaschal/catacomb/raw/master/docs/logo.png" />
+<div style="text-align: center;">
+	<img width="128px" height="128px" src="https://github.com/ianpaschal/catacomb/raw/master/docs/logo.png" />
+</div>
 
 # Catacomb
 A bare bones database.
