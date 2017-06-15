@@ -3,6 +3,9 @@
 # Catacomb
 A bare bones JSON database.
 
+
+<!-- [![Github file size](https://img.shields.io/github/size/webcaetano/craft/build/craft.min.js.svg)]() -->
+
 #### Note: As of 2017-06-12, Catacomb is still in the early stages of development. Please avoid using it and check back later.
 
 ## About

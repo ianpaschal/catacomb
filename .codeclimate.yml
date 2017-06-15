@@ -1,0 +1,25 @@
+engines:
+  eslint:
+    enabled: true
+  csslint:
+    enabled: true
+    checks:
+      bulletproof-font-face:
+        enabled: false
+      known-properties:
+        enabled: false
+  duplication:
+    enabled: true
+    config:
+      languages:
+      - javascript
+ratings:
+  paths:
+  - "**.js"
+exclude_paths:
+- "lib/*"
+- "node_modules/*"
+- "build/*"
+- "LICENSE.md"
+- "package.json"
+- "README.md"
