@@ -1,9 +1,8 @@
+<p align="center">
 <img width="128px" height="128px" src="https://github.com/ianpaschal/catacomb/raw/master/docs/logo.png" />
-
-# Catacomb
-A bare bones JSON database.
-
-<!-- [![Github file size](https://img.shields.io/github/size/webcaetano/craft/build/craft.min.js.svg)]() -->
+</p>
+<h1 align="center">Catacomb</h1>
+<p align="center">A bare bones JSON database.</p>
 
 #### Note: As of 2017-06-12, Catacomb is still in the early stages of development. Please avoid using it and check back later.
 
