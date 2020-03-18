@@ -23,6 +23,6 @@
   "homepage": "https://github.com/ianpaschal/catacomb#readme",
   "dependencies": {
     "fs": "0.0.1-security",
-    "uuid": "^3.0.1"
+    "uuid": "^7.0.2"
   }
 }
